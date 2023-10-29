@@ -1,0 +1,12 @@
+div h1 {
+  color: darkcyan;
+}
+div > h1 {
+  color: purple;
+}
+.header h1{
+  color: yellowgreen;
+}
+.header > h1{
+    color: blueviolet;
+}

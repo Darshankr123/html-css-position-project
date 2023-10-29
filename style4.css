@@ -1,0 +1,18 @@
+a {
+  display: block;
+  background: darkcyan;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+}
+a:link{
+    color: orangered;
+}
+
+a:visited{
+    color: blue;
+}
+a:active{
+    color: white;
+    background: black;
+}

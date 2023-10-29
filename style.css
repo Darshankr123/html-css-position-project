@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.nav {
+  height: 3rem;
+  background: #333;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 8;
+}
+.nav-center {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.nav-center h1 {
+  text-transform: uppercase;
+}
+
+.hero {
+  min-height: calc(100vh - 3rem);
+  background: rgb(101, 45, 45);
+  color: white;
+  position: relative;
+}
+@media screen and (min-width: 768px) {
+  .hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)),
+      url("./pexels-liana-horodetska-7507351.jpg") center/cover fixed no-repeat;
+  }
+}
+.hero-center {
+  width: 90vw;
+  max-width: 1170px;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hero-center h1 {
+  text-transform: capitalize;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  letter-spacing: 2px;
+}
+.hero-center p {
+  letter-spacing: 1px;
+  padding-bottom: 10px;
+  width: 35em;
+  margin: 0 auto;
+}
+.hero-center button {
+  padding: 10px 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: transparent;
+  color: white;
+  border-color: white;
+  cursor: pointer;
+}
+.dummy {
+  height: 100vh;
+  background: darkcyan;
+}
